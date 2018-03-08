@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+g-bnr,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none; text-overflow: ellipsis;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+a{color:#000000;}
+.fl{float: left;} .fr{float:right;}
+.clearfix:after{content: '.';display: block;clear: both;height: 0;visibility: hidden;}
+.mainbox{width: 1100px;margin: 0 auto;}
+
+/*通用新闻列表样式一*/
+.tt-tt{width: 100%;height: 35px;}
+.tt-tt li{width: 110px;height:35px;line-height: 35px;float: left;}
+.tt-tt li a{display: block;text-align: center;color: #898684;font-size: 14px;}
+.tt-tt .active a{ color: #ffffff;background-color: #c03600;}
+.tylb-1 li{height: 34px;line-height: 34px;overflow: hidden;}
+.tylb-1 li:hover{}
+
+.tylb-1 li span{float: right;color: 303030;font-size: 14px;}
+.tylb-1 li a{color: #303030;font-size: 14px;height: 34px; display: inline-block;background: url("../images/ztb20180306_03.png") center left no-repeat;padding-left: 25px;}
+.tylb-1 li a:hover{color: #c03600;background: url("../images/ztbr20180306.png") center left no-repeat;}
+.tylb-2 li{height: 30px;line-height: 30px;overflow: hidden;}
+.tylb-2 li a{font-size: 14px;color: #2e2e2e;}
+.tylb-2 li span{padding-right: 5px;}
+.tylb-2 li a:hover{color: #c03600;}
+.xian2{height: 10px;width: 100%;}
+/*轮播图片*/
+.slideBox1{ width:500px; height:315px; position:relative; float: left; }
+.slideBox1 .hd{ height:15px; overflow:hidden; position:absolute; right:5%; bottom:3%; z-index:1; }
+.slideBox1 .hd ul{ overflow:hidden; zoom:1; float:left; }
+.slideBox1 .hd ul li{ float:left; margin-right:8px;  width:8px; height:8px; line-height:8px;
+                     text-align:center;background-image: url("../images/db20180306.png"); }
+.slideBox1 .hd ul li.on{ background-image: url("../images/dl20180306.png"); }
+.slideBox1 .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox1 .bd li{ zoom:1; vertical-align:middle;width: 500px;height: 315px; }
+.slideBox1 .bd ul li a{display: block;width: 100%;height: 100%;color: #fff;}
+.slideBox1 .bd img{ width:100%; height:100%; display:block;  }
+.slideBox1 .img-title{box-sizing: border-box;background: #000;background: rgba(0,0,0,.6);padding: 10px;position: absolute;left: 0;bottom: 0;
+width: 100%;color: #fff;font-size: 14px;}
+
+
+
+/*通用标题3*/
+.ty-tt3{width: 15px;height: 100%;float: left;display: table;margin-left: 15px;}
+.ty-tt3 span{font-size: 14px;color: #fff;display: table-cell;vertical-align: middle;}
+
+
+
+
+/*头部开始*/
+.g-bnr{width: 955px;height: 160px;background: url("../images/tb20180305.png") top center no-repeat;
+    margin:0 auto; margin-top: 50px;}
+.g-bnr ul{margin-top: 10px;}
+.g-bnr ul li{width: 100px;height: 34px;line-height: 34px;margin:0px 10px;}
+.g-bnr ul .active a{display: block;background-color: #c03600;color: #fff;}
+.g-bnr ul li a {display: block; font:14px;color:#000000;width: 100%;height: 100%;border-radius: 5px 5px;text-align: center;}
+.g-bnr ul li:hover a{display: block;background-color: #c03600;color: #fff;}
+/*头部结束*/
+
+
+
+/*底部信息开始*/
+.g-ur{width: 780px;margin: 0 auto;margin-top: 40px;}
+.g-ur .g-ur-l,.g-ur-c,.g-ur-r{float: left;margin-right: 30px;}
+.g-ur-r a{color: #6d6d6d;}
+.g-ur-r a:hover{color: #c03600;}
+.g-ur .g-ur-l a,.g-ur .g-ur-c a{display: block;}
+.g-ur .g-ur-r p{font-size: 12px;color: #6d6d6d;line-height: 20px;}
+.g-re{background-color: #00548f; height: 45px;line-height: 45px;font-size: 12px;color: #fefefe;min-width: 1100px;text-align: center;margin-top: 20px;}
+.g-re a{color: #fefefe }
+
